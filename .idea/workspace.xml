@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1bc1130-4900-4d18-8b00-3ca69016a465" name="Default Changelist" comment="" />
+    <list default="true" id="c1bc1130-4900-4d18-8b00-3ca69016a465" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,12 +26,12 @@
         <entry file="file://$PROJECT_DIR$/src/File3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NanExample.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -38,7 +40,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/math/BigDecimal.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
@@ -78,7 +80,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -91,12 +92,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579973045394" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580042970319" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../git/dz/java-basics-template" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -154,18 +157,19 @@
       <updated>1579962687447</updated>
       <workItem from="1579962692129" duration="71000" />
       <workItem from="1579962788286" duration="172000" />
-      <workItem from="1579962987120" duration="3210000" />
+      <workItem from="1579962987120" duration="4433000" />
+      <workItem from="1580043309044" duration="307000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3453000" />
+    <option name="totallyTimeSpent" value="4983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -175,7 +179,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -201,13 +205,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/NewFile2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NewFile2.java" />
     <entry file="file://$PROJECT_DIR$/src/HelloJava.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -218,14 +216,7 @@
     <entry file="file://$PROJECT_DIR$/src/File3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/math/BigDecimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="219" column="13" selection-start-line="219" selection-start-column="13" selection-end-line="219" selection-end-column="13" />
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -233,6 +224,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/math/BigDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="219" column="13" selection-start-line="219" selection-start-column="13" selection-end-line="219" selection-end-column="13" />
         </state>
       </provider>
     </entry>
