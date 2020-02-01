@@ -20,6 +20,8 @@ public class K126{
 					rezault = number/doubleDigit;
 				if (rezault != 0) {
 					count++;
+					Random random = new Random();
+					random.nextInt(1);
 
 		}
 
