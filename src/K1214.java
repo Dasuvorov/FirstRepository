@@ -19,7 +19,7 @@ public class K1214{
 		int r; 
 			int countPositiv =0;
 			int countNegative = 0;
-			
+
 		
 		for(int i = 0; i<30; i++){
 			r = min + random.nextInt(max - min);
