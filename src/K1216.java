@@ -17,17 +17,20 @@ public class K1216{
 		boolean flag = false;
 		int number = scanner.nextInt();
 		for(int i =2; i< number; i++){
-			if(number % i != 0){
+			if(number % i == 0){
 				flag =true;
+				break;
 			}else {
 				flag = false;
-				break;
+				
 			}
 		}
 		if(flag){
-			System.out.println("Simple number");
-		}else{
 			System.out.println("ordinary number");
+			
+		}else{
+			
+			System.out.println("Simple number");
 		}
 	}
 }
