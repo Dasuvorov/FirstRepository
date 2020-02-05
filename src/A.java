@@ -14,5 +14,10 @@ class B extends A {
     public static void main(String[] args) {
         A a = new B();
         System.out.println(a.version + a.testMethod());
+        Goblin goblin = new Goblin(1, "Vasia");
+        goblin.hello();
+        goblin.bye();
+
+
     }
 }
