@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 /**
 Напишите класс, который принимает с клавиатуры 
@@ -13,7 +14,9 @@ import java.util.Scanner;
 */
 
 public class K1219 {
+
 	public static void main(String[] args) {
+		Random random = new Random();
 		Scanner scanner = new Scanner(System.in);
 
 		System.out.println("enetr coordinate X");
