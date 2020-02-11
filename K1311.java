@@ -17,13 +17,7 @@ import java.util.Random;
 
 public class K1311{
 	static Random random = new Random();
-	public static int measurements(int countMeasurements){
-			
-			
-			int i = 1 + random.nextInt(10);
-			
-			return i;
-	}
+
 	public static void pollution(int days, int poll){
 			
 		
@@ -38,7 +32,7 @@ public class K1311{
 	public static void main(String[] args){
 	
 		for(int i = 1; i<=50; i++){
-			int measurements = measurements(i);
+			int measurements = 1 + random.nextInt(10);
 			int days = 1 + random.nextInt(7);	
 			pollution( days, measurements);	
 		}
