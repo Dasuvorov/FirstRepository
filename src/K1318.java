@@ -31,7 +31,7 @@ public class K1318{
 		for(int i = 1; i <= mounts; i++){
 
 			if(i == 1){
-				
+
 			System.out.println("mounts + " + i +" "  + sum);
 			} else if (i > 1){
 					
