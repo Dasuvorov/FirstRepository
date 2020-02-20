@@ -12,6 +12,6 @@ public class ExampleStringBuilder {
         System.out.println(str2.length());
         System.out.println(str1.length());
         System.out.println(sb.toString());
-        
+
     }
 }
