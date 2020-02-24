@@ -1,3 +1,4 @@
+import java.awt.event.ActionListener;
 import java.util.*;
 /**
 По правилам банка, на вклад ежемесячно начисляется определенная
@@ -41,8 +42,7 @@ public class K1318{
 		sum += (sumPercent + sumPerPer);
 				
 			System.out.println("mounts + " + i +" "  + sum);
-			
-			}
+							}
 		}
 	}
 	

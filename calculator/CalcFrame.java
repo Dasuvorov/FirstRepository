@@ -1,5 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionListener;
 
 public class CalcFrame extends JFrame{
 	
@@ -23,6 +24,7 @@ public class CalcFrame extends JFrame{
 	JButton buttonStart = new JButton("=");
 
 	CalcFrame(){
+		System.out.println("Привет Джава");
 		setBounds(300,300,300,300);
 		setLayout(new BorderLayout());
 		add(display,BorderLayout.NORTH);
@@ -44,6 +46,8 @@ public class CalcFrame extends JFrame{
 		buttonPanel.add(buttonBack);
 		buttonPanel.add(buttonDevide);
 		
+		
+
 		setVisible(true);
 	}
 	
@@ -51,5 +55,5 @@ public class CalcFrame extends JFrame{
 			CalcFrame calcFrame = new CalcFrame();
 			calcFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);		
 		}
-	
+
 }

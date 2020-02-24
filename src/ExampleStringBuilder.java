@@ -2,7 +2,7 @@ public class ExampleStringBuilder {
 
     public static void main(String[] args) {
 
-
+      java.util.Scanner scanner = new java.util.Scanner(System.in);
         StringBuilder sb = new StringBuilder();
         String str1 = "Mother washin pattern";
         System.out.println(sb.append(str1));
