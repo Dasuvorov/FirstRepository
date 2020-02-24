@@ -21,7 +21,7 @@ public class K1327{
 		int two = scanner.nextInt();
 		System.out.println("Enter number three");
 		int three = scanner.nextInt();
-			int[] array = new int[17];
+			int[] array = new int[14];
 		int d1;
 		int d2;
 		d1 = two - one;
@@ -31,7 +31,7 @@ public class K1327{
 			array[0] = one;
 			array[1] = two;
 			array[2] = three;
-			for(int i =3 ; i< 17; i++){
+			for(int i =3 ; i< 14; i++){
 				array[i] = array[0] +(i*d1);
 			
 			}
