@@ -1,14 +1,14 @@
 import javax.swing.*;
 import java.awt.GridLayout;
 import java.awt.BorderLayout;
-import javax.swing.BoxLayout;
 
-public class Calculator{
+
+    public class Calculator{
 
     //declaration of all components
 
     JPanel windowContent;
-    JFormattedTextField  displayFormattedField;
+    JFormattedTextField  displayField;
     JButton button0;
     JButton button1;
     JButton button2;
@@ -37,9 +37,9 @@ public class Calculator{
         BorderLayout bl = new BorderLayout();
         windowContent.setLayout(bl);
 
-        displayFormattedField = new JFormattedTextField();
-        displayFormattedField.setHorizontalAlignment(SwingConstants.RIGHT);
-        windowContent.add("North",displayFormattedField);
+        displayField = new JFormattedTextField();
+        displayField.setHorizontalAlignment(SwingConstants.RIGHT);
+        windowContent.add("North",displayField);
 
 
         button0 = new JButton("0");
@@ -95,8 +95,30 @@ public class Calculator{
         frame.setVisible(true);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
-        CalculatorEngine calcEngine = new CalculatorEngine();
+        CalculatorEngine calcEngine = new CalculatorEngine(this);
         button0.addActionListener(calcEngine);
+        button1.addActionListener(calcEngine);
+        button2.addActionListener(calcEngine);
+        button3.addActionListener(calcEngine);
+        button4.addActionListener(calcEngine);
+        button5.addActionListener(calcEngine);
+        button6.addActionListener(calcEngine);
+        button7.addActionListener(calcEngine);
+        button8.addActionListener(calcEngine);
+        button9.addActionListener(calcEngine);
+        buttonPoint.addActionListener(calcEngine);
+        buttonEqual.addActionListener(calcEngine);
+        buttonDiff.addActionListener(calcEngine);
+        buttonDiv.addActionListener(calcEngine);
+        buttonMult.addActionListener(calcEngine);
+        buttonPlus.addActionListener(calcEngine);
+
+
+
+
+
+
+
     }
 
 
