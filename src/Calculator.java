@@ -123,7 +123,7 @@ import java.awt.BorderLayout;
 
 
     public static void main(String[] args){
-        Calculator calcEngine = new Calculator();
+        Calculator calc = new Calculator();
 
     }
 
