@@ -5,7 +5,9 @@ import java.util.Random;
 
 public class SpeedDemo{
 	public static void main(String[] args){
-		
+
+		long b = 077777777777L; // Ошибка
+		long d = 0xffffffffffL;
 		Random random = new Random(147);
 		double distance;
 		double time;
