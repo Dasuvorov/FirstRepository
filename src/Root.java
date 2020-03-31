@@ -7,4 +7,11 @@ public class Root {
     Component2 c2 = new Component2("Stas");
     Component3 c3 = new Component3('a');
 
+    void dispose(){
+        System.out.println("Root despose");
+        c1.dispose();
+        c2.dispose();
+        c3.dispose();
+    }
+
 }

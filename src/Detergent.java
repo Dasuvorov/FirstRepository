@@ -5,55 +5,24 @@
 	public void append(String a){
 		s+=a;
 	}
-	public void dilute(){
-		append(" dilute()");
-	}
-		public void apply(){
-		append(" apply()");
-	}
-   	public void  scrub(){
-		append(" scrub()");
-	}
+	public void dilute(String s){}
+	public void apply(String s){}
+   	public void  scrub(String s){}
 	
-	public String toString(){
-		return s;
-	}
-   public static void main(String[] args){
-	   Cleanser c = new Cleanser();
-	   c.dilute();
-	   c.apply();
-	   c.scrub();
-	   System.out.println(c);
-   }
-   
+
    
    }
    
-   public class Detergent extends Cleanser{
-	   
-	   public void scrub(){
-		   append(" Detergent.scrub()");
-			super.scrub();
+   public class Detergent extends  Cleanser {
+	   String name;
+
+	   public Detergent(String name) {
+		   this.name = name;
 	   }
-		
-	 	public void  foam(){
-		append(" foam()");
-	}   
-	   
-	   
-   public static void main(String[] args){
-	   
-	   Detergent x = new Detergent();
-	   
-	   x.dilute();
-	   x.apply();
-	   x.scrub();
-	   x.foam();
-	   System.out.println(x);
-	   System.out.println("checking based class");
-	   Cleanser.main(args);
-	   
-	   
-   }
-   
+
+	   public static void main(String[] args) {
+		   Detergent d = new Detergent("Name");
+		   d.dilute("Vasia");
+	   }
+
    }

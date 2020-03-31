@@ -1,28 +1,33 @@
 
 
 
-public class DetergentNew extends Detergent{
+public class DetergentNew{
 	
-	public void scrub(){
-		append(" DetergentNew.scrub()");
+	private String name;
+	Cleanser cleanser = new Cleanser();
+	public  DetergentNew(String name){
+		this.name = name;
 	}
 
-	public void sterilize(){
-		
-		append(" sterilize()");
-		
+	public String toString() {
+		return name;
 	}
 
-		public static void main(String[] args){
-			
-			DetergentNew dn = new DetergentNew();
-			dn.scrub();
-			dn.sterilize();
-			System.out.println(dn);
-			System.out.println("checked based class Detergent");
-			
-			Detergent.main(args);
-			
-		}
+	public void dilute() {
+		cleanser.dilute(" dilute()");
+	}
 
+	public void apply() {
+		cleanser.append(" apply()");
+	}
+
+	public void scrub() {
+		cleanser.scrub(" scrub()");
+	}
+
+
+	public static void main(String[] args) {
+		Detergent dt = new Detergent("Name");
+		dt.dilute("Vasia");
+	}
 }
