@@ -39,3 +39,18 @@ class Triangle extends Shape{
 	}
 }
 
+class Line extends Shape{
+	private int start, end;
+	Line(int start, int end) {
+		super(start);
+		this.start = start;
+		this.end = end;
+		System.out.println("Constructor Line  " + start + " " + end);
+		
+	}
+	
+	void dispose(){
+		System.out.println("fynally Triangle");
+		super.dispose();
+	}
+}
